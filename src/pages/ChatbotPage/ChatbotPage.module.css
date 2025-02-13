@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #f1f5f9;
+  padding: 1rem;
+
+}
+
+.chatBox {
+  width: 400px;
+  margin: auto;
+}
