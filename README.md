@@ -25,7 +25,16 @@ Before running the project, ensure you have the following installed:
 - **Node.js** (version 14 or higher recommended)
 - **npm** or **yarn**
 - A valid **OpenAI API key** (with sufficient quota for the Whisper API).
+**Setting Up Whisper API Integration**
 
+This project uses the Whisper API for speech-to-text functionality. To get started, follow these steps to configure the API:
+Prerequisites
+
+    Ensure you have a valid API key for OpenAI's Whisper API.
+      1. You can obtain an API key by signing up at [OpenAI whisper](https://openai.com/index/whisper/) on the API 
+      2. and the go to the [API Key](https://platform.openai.com/settings/organization/api-keys) and generate a key from there
+      3.  then add it to .env file with key name of : REACT_APP_OPENAI_API_KEY
+          example : ``` REACT_APP_OPENAI_API_KEY=keyFrom-OpenAi```
 ---
 
 ## Installation and Setup
