@@ -73,3 +73,8 @@ Prerequisites
    Visit http://localhost:3000 in your browser.
 
    ```
+6. Login by using this account:
+    ```
+    username: admin
+    password 1234
+    ```
